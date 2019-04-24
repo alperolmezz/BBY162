@@ -1,12 +1,15 @@
 #1.soru
 
 metin ="açık bilim,araştırma çıktılarına ve süreçlerine herkesin serbestçe erişmesini,bunların ortak kullanımını, dağıtımını ve üretimini kolaylaştıran bilim uygulamasıdır."
-print(len(metin))
+print(metin[:19])
 
 #2.soru
-from random import choice
 
-liste = choice (["açık bilim","açık erişim","açık lisans","açık eğitim","açık veri","açık kültür"])
+liste = ['açık bilim','açık erişim','açık lisans','açık eğitim','açık veri','açık kültür']
+
+for list in liste:
+    print(list)
+
 
 
 #3.soru
